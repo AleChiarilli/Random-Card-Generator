@@ -29,7 +29,9 @@ window.onload = function() {
 
   <div class="text-end display-1" style='${
     randomStick <= 1 ? "color: red;" : ""
-  }' id="stick">${stick[randomStick]}</div>
+  } transform: rotate(180deg) scaleX(-1); ' id="stick">${
+    stick[randomStick]
+  }</div>
 
   </div>`;
 
